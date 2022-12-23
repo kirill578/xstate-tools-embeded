@@ -3,8 +3,8 @@
   <head>
     <script>
       const urlSearchParams = new URLSearchParams(window.location.search);
-      const params = Object.fromEntries(urlSearchParams.entries());
-      window.__params = params;
+      const query = Object.fromEntries(urlSearchParams.entries());
+      window.__params = query['__params'];
     </script>
   
   
