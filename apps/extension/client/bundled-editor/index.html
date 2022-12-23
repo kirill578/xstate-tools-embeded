@@ -4,7 +4,7 @@
     <script>
       const urlSearchParams = new URLSearchParams(window.location.search);
       const query = Object.fromEntries(urlSearchParams.entries());
-      window.__params = query['__params'];
+      window.__params = JSON.parse(query['__params']);
     </script>
   
   
