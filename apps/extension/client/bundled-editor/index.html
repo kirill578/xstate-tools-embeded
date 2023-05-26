@@ -18,6 +18,11 @@
         document.getElementsByClassName("css-snukli")[0].style.visibility = 'hidden';
         document.getElementsByClassName("css-kiio1d")[0].style.visibility = 'hidden';
         document.getElementsByClassName("css-5ki9px")[0].style.visibility = 'hidden';
+        document.dispatchEvent(new KeyboardEvent('keydown', {
+          key: '-',
+          shiftKey: false,
+          code: 'Minus'
+        }));
       }, 100);
     </script>
     
