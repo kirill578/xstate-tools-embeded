@@ -1,5 +1,11 @@
 # stately-vscode
 
+## 1.12.0
+
+### Minor Changes
+
+- [#291](https://github.com/statelyai/xstate-tools/pull/291) [`4be03b0`](https://github.com/statelyai/xstate-tools/commit/4be03b040cb67d614517e77e84285aeed6a022b1) Thanks [@jlarmstrongiv](https://github.com/jlarmstrongiv)! - Add `xstate.viewColumn` setting to control whether the Visual Editor and Inspector are opened in a group beside the current file, or in the active group of the current file.
+
 ## 1.11.3
 
 ### Patch Changes
